@@ -245,10 +245,14 @@ onMounted(() => {
   gap: 0.5rem;
   margin-top: 0.7rem;
 }
+.thumb {
+  max-width: 100%;
+}
 .thumb img {
   display: block;
   height: 5.5rem;
   width: auto;
+  max-width: 100%;
   border-radius: 10px;
   object-fit: cover;
 }
